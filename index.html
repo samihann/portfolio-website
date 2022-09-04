@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="Samihan Portfolio Website">
+  <meta name="keywords" content="Samihan, Nandedkar, Resume, Portfolio, Website, Software, Engineer">
+  <meta name="author" content="Samihan Nandedkar">
+  <title>Samihan ~ Portfolio</title>
+  <link rel="stylesheet" href="assets/css/color.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono|Inconsolata" rel="stylesheet">
+  <link href="https://cdn.materialdesignicons.com/2.0.46/css/materialdesignicons.min.css" rel="stylesheet">
+</head>
+<body>
+
+<!--Switcher-->
+  <div class="style-switcher">
+    <span class="style-switcher__control"></span>
+    <div class="style-switcher__list">
+      <a class="style-switcher__link style-switcher__link--color"></a>
+      <a class="style-switcher__link style-switcher__link--mono"></a>
+    </div>
+  </div>
+<!--Switcher-->
+
+<!--Main menu-->
+  <div class="menu">
+    <div class="container">
+      <div class="row">
+        <div class="menu__wrapper d-none d-lg-block col-md-12">
+          <nav class="">
+            <ul>
+              <li><a href="#hello">Hello</a></li>
+              <li><a href="#resume">Resume</a></li>
+              <li><a href="#testimonials">Certifications</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="menu__wrapper col-md-12 d-lg-none">
+          <button type="button" class="menu__mobile-button">
+            <span><i class="fa fa-bars" aria-hidden="true"></i></span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+<!--Main menu-->
+
+<!-- Mobile menu -->
+  <div class="mobile-menu d-lg-none">
+    <div class="container">
+      <div class="mobile-menu__close">
+        <span><i class="mdi mdi-close" aria-hidden="true"></i></span>
+      </div>
+      <nav class="mobile-menu__wrapper">
+        <ul>
+          <li><a href="#hello">Hello</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#testimonials">testimonials</a></li>
+          <li><a href="#blog">blog</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+<!-- Mobile menu -->
+
+<!--Header-->
+  <header class="main-header" style="background-image: url(assets/img/img_bg.jpeg)">
+    <div class="container">
+      <div class="row personal-profile">
+        <div class="col-md-4 personal-profile__avatar">
+          <img class="" src="assets/img/img_bg_header.jpeg" alt="avatar">
+        </div>
+        <div class="col-md-8">
+          <p class="personal-profile__name">Samihan Nandedkar_</p>
+          <p class="personal-profile__work">Software Developer, Graduate Student</p>
+          <div class="personal-profile__contacts">
+            <dl class="contact-list contact-list__opacity-titles">
+              <dt>Age:</dt>
+              <dd>24</dd>
+              <dt>Phone:</dt>
+              <dd><a href="tel:82344563333">(872)218-4076</a></dd>
+              <dt>Email:</dt>
+              <dd><a href="mailto:mail@mail.com">svn2998@gmail.com</a></dd>
+              <dt>Address:</dt>
+              <dd>Chicago, IL - 60612</dd>
+            </dl>
+          </div>
+          <p class="personal-profile__social">
+            <a href="https://github.com/samihann" target="_blank"><i class="fa fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/samihann/" target="_blank"><i class="fa fa-linkedin-square"></i></a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </header>
+<!--Header-->
+
+<!--Hello-->
+  <section id="hello" class="container section">
+    <div class="row">
+      <div class="col-md-10">
+        <h2 id="hello_header" class="section__title">Hi_</h2>
+        <p class="section__description">
+          I am graduate student at University of Illinois at Chicago.
+        </p>
+        <a href="" class="section_btn site-btn"><img src="assets/img/img_btn_icon.png" alt="">Download CV</a>
+      </div>
+    </div>
+  </section>
+<!--Hello-->
+
+  <hr>
+
+<!--Resume-->
+  <section id="resume" class="container section">
+    <div class="row">
+      <div class="col-md-10">
+        <h2 id="resume_header" class="section__title">Resume_</h2>
+        <p class="section__description">
+          I am a Web & Software Developer with over a year of industry experience in React, Node.js and Express. I try to create websites that are fast, easy to use and are built with best practices. The main area of my interest is in front end development, building small and medium web apps with custom features. I am proficient in Python, JavaScript, HTML, CSS and Scala programming languages.
+        </p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-8 section__resume resume-list">
+        <h3 class="resume-list_title">employment</h3>
+        <div class="resume-list__block">
+          <p class="resume-list__block-title">Technology Solutions, Uni. of Illinois at Chicago</p>
+          <p class="resume-list__block-date">Feb. 2022 - Present</p>
+          <p>
+            Software Developer - Graduate Employee
+          </p>
+          <small>
+            <ul style="list-style-type: square;">
+              <li>Developed core backend functionality for Employee Leave tracking system in Node.js with over 3000+ active daily users.</li>
+              <li>Designed database architecture to enable data fetching from multiple data source banks in multi-tenant environment.</li>
+              <li>Implemented over 150+ unit test cases in Jest & Supertest to assert the core functionalities of exposed API endpoints & backend system.</li>
+              <li>Optimized report generation by implementing parallel processing using JavaScript native Promises to assist stakeholders in analyzing leave summary data of their employees which resulted in 40% improvement in productivity.</li>
+              <li>Reinforced code quality using Husky & Github Actions by setting up test cases & lint checks to validate that each code push aligns with projects code standardization.</li>
+            </ul>
+          </small>
+        </div>
+        <div class="resume-list__block">
+          <p class="resume-list__block-title">Gap Inc.</p>
+          <p class="resume-list__block-date">June 2020 - July 2021</p>
+          <p>
+            Software Engineer
+          </p>
+          <small>
+            <ul style="list-style-type: square;">
+              <li>Designed a full-stack web app in React and Express to facilitate the product teams to monitor and manage their infrastructure footprint and engage with compute teams as required.</li>
+              <li>Analyzed & showcased current infrastructure reach across multiple cloud vendors (Azure & OCI) and data centers.</li>
+              <li>Implemented end-to-end automation to patch linux server to latest approved version at designated time with minimum human intervention, reducing 20hrs manual hours per week. </li>
+              <li>Automated operations testing on over 10,000+ Linux Cloud instances to make them production-ready by leveraging Ansible.</li>
+              <li>Provided Level 3 support for Linux (OEL, Redhat 6/7, IBM Aix) servers to plan and implement critical infrastructure change tickets which impacted production-sensitive environments without any downtime.</li>
+            </ul>
+          </small>
+        </div>
+        <div class="resume-list__block">
+          <p class="resume-list__block-title">Gap Inc.</p>
+          <p class="resume-list__block-date">May 2019 - July 2019</p>
+          <p>
+            Software Engineering Intern
+          </p>
+          <small>
+            <ul style="list-style-type: square;">
+              <li>Developed a web application in MERN stack to enable team members to interact with AIX HMC using Rest APIs.</li>
+              <li>Introduced a layer of security over HMC dashboard to limit actions to users according to their authorization.</li>
+              <li>Built a deployment pipeline in Jenkins to facilitate continuous deployment of the project.</li>
+            </ul>
+          </small>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-8 section__resume resume-list">
+        <h3 class="resume-list_title">education</h3>
+        <div class="resume-list__block">
+          <p class="resume-list__block-title">University of Illinois at Chicago</p>
+          <p class="resume-list__block-date">2021 - Present</p>
+          <p>
+            Master of Science in Computer Science
+          </p>
+          <span>
+            <p><small>
+              Essential Coursework: Computer Algorithm, Engineering Distributed Objects in Cloud Computing,Obj-Oriented Langs Env, Parallel programming
+              , Data Mining & Text Mining, Natural Language Processing
+            </small></p>
+          </span>
+        </div>
+        <div class="resume-list__block">
+          <p class="resume-list__block-title">Malaviya National Institute of Technology</p>
+          <p class="resume-list__block-date">2016 - 2020</p>
+          <p>
+            Bachelor of Technology in Electronics and Communication Engineering
+          </p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row section__resume progress-list js-progress-list">
+      <div class="col-md-12">
+        <h3 class="progress-list__title">general skills</h3>
+      </div>
+      <div class="col-md-5 mr-auto">
+        <div class="progress-list__skill">
+          <p>
+            <span class="progress-list__skill-title">Languages:</span>
+            <span class="progress-list__skill-value">Javascript, Python, Scala, Java</span>
+          </p>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" >
+            </div>
+          </div>
+        </div>
+        <div class="progress-list__skill">
+          <p>
+            <span class="progress-list__skill-title">Web Development Languages: </span>
+            <span class="progress-list__skill-value">JavaScript, HTML/ CSS, jquery</span>
+          </p>
+          <p>
+            <span class="progress-list__skill-title">Frameworks: </span>
+            <span class="progress-list__skill-value">Node.js, React, Vue.js, Express</span>
+          </p>
+          <p>
+            <span class="progress-list__skill-title">Testing: </span>
+            <span class="progress-list__skill-value">Jest & Supertest </span>
+          </p>
+          <p>
+            <span class="progress-list__skill-title">Deployment: </span>
+            <span class="progress-list__skill-value">Nginx, Apache HTTP Server</span>
+          </p>
+          <p>
+            <span class="progress-list__skill-title">Automation: </span>
+            <span class="progress-list__skill-value">Husky, Github Actions</span>
+          </p>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+            </div>
+          </div>
+        </div>
+        <div class="progress-list__skill">
+          <p>
+            <span class="progress-list__skill-title">Cloud:</span>
+            <span class="progress-list__skill-value">Azure, AWS</span>
+          </p>
+          <p>
+            <span class="progress-list__skill-title">Cloud Areas:</span>
+            <span class="progress-list__skill-value">Compute, Storage, Database, CICD, Devops</span>
+          </p>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-5 mr-auto">
+        <div class="progress-list__skill">
+          <p>
+            <span class="progress-list__skill-title">Databases:</span>
+            <span class="progress-list__skill-value">MySQL,MongoDB,DynamoDB(AWS),CosmosDB(Azure)</span>
+          </p>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+            </div>
+          </div>
+        </div>
+        <div class="progress-list__skill">
+          <p>
+            <span class="progress-list__skill-title">Operating System Administration:</span>
+            <span class="progress-list__skill-value">Linux(Redhat, OEL, IBM AIX)</span>
+          </p>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+            </div>
+          </div>
+        </div>
+        <div class="progress-list__skill">
+          <p>
+            <span class="progress-list__skill-title">Frameworks:</span>
+            <span class="progress-list__skill-value">Kafka, Spark, Hadoop, MapReduce</span>
+          </p>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+            </div>
+          </div>
+        </div>
+        <div class="progress-list__skill">
+          <p>
+            <span class="progress-list__skill-title">Devops:</span>
+            <span class="progress-list__skill-value">Docker, Kubernetes, Jenkins, Git</span>
+          </p>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<!--Resume-->
+
+<!--Certification-->
+<div id="testimonials" class="section">
+  <div class="background slider-carousel" style="background-image: url(assets/img/img_bg_main.jpg);">
+    <div class="container">
+      <div id="carouselTestimonials" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner" role="listbox">
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-md-10 col-sm-10 col-10 mr-auto ml-auto">
+                <p class="slider-carousel__title">Certifications</p>
+                <p class="slider-carousel__caption">Please click on the badge to verify the certifications.</p>
+                <hr>
+
+                <a href="https://www.credly.com/badges/280bf70c-601b-460f-b3af-9ddcd6b452cc/public_url" target="_blank">
+                  <img src="assets/img/aws_1.png" />
+                </a>
+
+                <a href="https://www.credly.com/badges/32f54f24-df55-4de3-b5a6-6d5e66894beb/public_url" target="_blank">
+                  <img src="assets/img/aws_2.png" />
+                </a>
+                
+                <a href="https://www.credly.com/badges/28d7d429-3ba5-48b6-961e-2b527d55fe63/public_url" target="_blank">
+                  <img src="assets/img/msft_1.png" />
+                </a>
+              </div>
+            </div>
+          </div>
+        <div class="slider-carousel__circle">
+          <p><i class="fa fa-certificate" aria-hidden="true"></i></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--Certification-->
+
+<!--Portfolio-->
+  <section id="portfolio" class="container section">
+    <div class="row">
+      <div class="col-md-12">
+        <h2 id="portfolio_header" class="section__title">My projects_</h2>
+      </div>
+    </div>
+    <div class="row portfolio-menu">
+      <div class="col-md-12">
+        <nav>
+          <ul>
+            <li><a href="" data-portfolio-target-tag="all">all</a></li>
+            <li><a href="" data-portfolio-target-tag="cloud">cloud</a></li>
+            <li><a href="" data-portfolio-target-tag="web">web development</a></li>
+            <li><a href="" data-portfolio-target-tag="languages">programming languages</a></li>
+            <li><a href="" data-portfolio-target-tag="data">data</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div class="portfolio-cards">
+      <div class="row project-card" data-toggle="modal" data-target="" data-portfolio-tag="cloud">
+        <div class="col-md-6 col-lg-5 project-card__img">
+          <img class="" src="assets/img/img_project_one1.png" alt="project-img">
+        </div>
+        <div class="col-md-6 col-lg-7 project-card__info">
+          <h3 class="project-card__title">Steaming Data Pipeline </h3>
+          <p class="project-card__description">
+            Collect and analyze logs from multiple resourse in real time and trigger notifications email for sensitive logs.
+          </p>
+          <p class="project-card__stack">Used stack:</p>
+          <ul class="tags">
+            <li>AWS Compute (EC2)</li>
+            <li>Akka Actor</li>
+            <li>Kafka</li>
+            <li>Spark</li>
+            <li>Lambda</li>
+            <li>Scala</li>
+            <li>Python</li>
+            <li>AWS S3</li>
+          </ul>
+          <a href="https://github.com/samihann/akka-kafka-spark_data-pipeline" target="_blank" class="project-card__link">Github Repository</a>
+        </div>
+      </div>
+
+      <div class="row project-card"  data-toggle="modal" data-target="" data-portfolio-tag="web">
+        <div class="col-md-6 col-lg-5 project-card__img">
+          <img class="" src="assets/img/img_project_two2.png" alt="project-img">
+        </div>
+        <div class="col-md-6 col-lg-7 project-card__info">
+          <h3 class="project-card__title">Clouddash</h3>
+          <p class="project-card__description">
+            A interactive cloud dashboard to interact with multiple cloud providers at one stop.
+          </p>
+          <p class="project-card__stack">Used stack:</p>
+          <ul class="tags">
+            <li>React</li>
+            <li>Node.js</li>
+            <li>JavaScript</li>
+            <li>Express</li>
+            <li>MySQL</li>
+            <li>Ansible</li>
+            <li>HTML/CSS</li>
+          </ul>
+          <a href="https://github.com/samihann/clouddash" target="_blank" class="project-card__link">| Github Repository |</a>
+          <a href="https://pedantic-hawking-48252c.netlify.app/samihann/homepage" target="_blank" class="project-card__link">| Demo Application |</a>
+        </div>
+      </div>
+
+      <div class="row project-card"  data-toggle="modal" data-target="" data-portfolio-tag="cloud">
+        <div class="col-md-6 col-lg-5 project-card__img">
+        <img class="" src="assets/img/img_project_three1.png" alt="project-img">
+        </div>
+        <div class="col-md-6 col-lg-7 project-card__info">
+        <h3 class="project-card__title">DCP - GRPC / REST</h3>
+        <p class="project-card__description">
+          Implement client server model to invove lamda function using gRPC/Rest method in a distributed environment.
+        </p>
+        <p class="project-card__stack">Used stack:</p>
+        <ul class="tags">
+          <li>Scala</li>
+          <li>gRPC</li>
+          <li>AWS</li>
+          <li>Lambda</li>
+          <li>AWS S3</li>
+          <li>ScalaPB</li>
+          <li>AWS API Gateway</li>
+        </ul>
+        <a href="https://github.com/samihann/dcp-gRPCRest" target="_blank" class="project-card__link">Github Repository</a>
+      </div>
+      </div>
+
+      <div class="row project-card"  data-toggle="modal" data-target="" data-portfolio-tag="data">
+        <div class="col-md-6 col-lg-5 project-card__img">
+        <img class="" src="assets/img/img_project_four1.png" alt="project-img">
+      </div>
+        <div class="col-md-6 col-lg-7 project-card__info">
+        <h3 class="project-card__title">Process data using Mapreduce</h3>
+        <p class="project-card__description">
+          Analyze huge amount of data using map reduce model leveraging Apache Hadoop
+        </p>
+        <p class="project-card__stack">Used stack:</p>
+        <ul class="tags">
+          <li>Scala</li>
+          <li>Apache Hadoop</li>
+          <li>AWS EMR</li>
+          <li>Hortonworks Sandbox</li>
+        </ul>
+        <a href="https://github.com/samihann/mapReduce" class="project-card__link">Github Repository</a>
+      </div>
+      </div>
+
+      <div class="row project-card"  data-toggle="modal" data-target="" data-portfolio-tag="web">
+        <div class="col-md-6 col-lg-5 project-card__img">
+        <img class="" src="assets/img/img_project_five1.png" alt="project-img">
+      </div>
+        <div class="col-md-6 col-lg-7 project-card__info">
+        <h3 class="project-card__title">Forum: Social Media Websites</h3>
+        <p class="project-card__description">
+          Social Media application
+        </p>
+        <p class="project-card__stack">Used stack:</p>
+        <ul class="tags">
+          <li>MongoDB</li>
+          <li>Express</li>
+          <li>React</li>
+          <li>Node.js</li>
+        </ul>
+        <a href="https://github.com/samihann/forum-social_app" target="_blank" class="project-card__link">| Github Repository |</a>
+        <a href="https://mystifying-morse-8fa640.netlify.app/" target="_blank" class="project-card__link">| Demo Application |</a>
+      </div>
+      </div>
+
+      <div class="row project-card"  data-toggle="modal" data-target="" data-portfolio-tag="languages">
+        <div class="col-md-6 col-lg-5 project-card__img">
+        <img class="" src="assets/img/img_project_six1.png" alt="project-img">
+      </div>
+        <div class="col-md-6 col-lg-7 project-card__info">
+        <h3 class="project-card__title">DSL - Set Theory</h3>
+        <p class="project-card__description">
+          create a language for users of the set theory to create and evaluate binary operations on sets using variables and scopes
+        </p>
+        <p class="project-card__stack">Used stack:</p>
+        <ul class="tags">
+          <li>Scala</li>
+        </ul>
+        <a href="https://github.com/samihann/DSL-SetLanguage" target="_blank" class="project-card__link">Github Repository</a>
+      </div>
+      </div>
+
+      <div class="row project-card"  data-toggle="modal" data-target="" data-portfolio-tag="cloud">
+        <div class="col-md-6 col-lg-5 project-card__img">
+        <img class="" src="assets/img/img_project_seven2.png" alt="project-img">
+      </div>
+        <div class="col-md-6 col-lg-7 project-card__info">
+        <h3 class="project-card__title">Cloud Simulation</h3>
+        <p class="project-card__description">
+          Simulate a cloud provider using CloudSim plus package in Scala
+        </p>
+        <p class="project-card__stack">Used stack:</p>
+        <ul class="tags">
+          <li>Scala</li>
+          <li>CloudSim Plus</li>
+        </ul>
+        <a href="https://github.com/samihann/cloud-simulations" target="_blank" class="project-card__link">Github Repository</a>
+      </div>
+      </div>
+    </div>
+  </section>
+<!--Portfolio-->
+
+<!--Contact-->
+  <div class="background" style="background-image: url(assets/img/img_bg.jpg)">
+    <div id="contact" class="container section">
+      <div class="row">
+        <div class="col-md-12">
+          <p id="contacts_header" class="section__title">Get in touch_</p>
+        </div>
+      </div>
+      <div class="row contacts">
+        <div class="col-md-5 col-lg-4">
+          <div class="contacts__list">
+            <dl class="contact-list">
+              <dt>Phone:</dt>
+              <dd><a href="tel:82344563333">(872) 218-4076</a></dd>
+              <dt>Email:</dt>
+              <dd><a href="mailto:mail@mail.com">svn2998@gmail.com</a></dd>
+            </dl>
+          </div>
+          <div class="contacts__social">
+            <ul>
+              <li><a href="https://www.linkedin.com/in/samihann/">Linkedin</a></li>
+              <li><a href="https://github.com/samihann">GitHub</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-7 col-lg-5">
+          <div class="contacts__form">
+            <p class="contacts__form-title">Or just write me a letter here_</p>
+            <form class="js-form">
+              <div class="form-group">
+                <input class="form-field js-field-name" type="text" placeholder="Your name" required>
+                <span class="form-validation"></span>
+                <span class="form-invalid-icon"><i class="mdi mdi-close" aria-hidden="true"></i></span>
+              </div>
+              <div class="form-group">
+                <input class="form-field js-field-email" type="email"  placeholder="Your e-mail" required>
+                <span class="form-validation"></span>
+                <span class="form-invalid-icon"><i class="mdi mdi-close" aria-hidden="true"></i></span>
+              </div>
+              <div class="form-group">
+                <textarea class="form-field js-field-message" placeholder="Type the message here" required></textarea>
+                <span class="form-validation"></span>
+                <span class="form-invalid-icon"><i class="mdi mdi-close" aria-hidden="true"></i></span>
+              </div>
+              <button class="site-btn site-btn--form" type="submit" value="Send">Send</button>
+            </form>
+          </div>
+          <div class="footer">
+            <p>© Samihan Nandedkar</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!--Contact-->
+
+<!-- Portfolio Modal -->
+<div class="modal fade portfolio-modal" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body col-md-11 col-lg-9 ml-auto mr-auto">
+        <p class="portfolio-modal__title">Streaming Data Pipeline</p>
+        <img class="portfolio-modal__img" src="assets/img/img_project_one1.png" alt="modal_img">
+        <p class="portfolio-modal__description">
+          The intention of the project is to create a streaming data pipeline. 
+          The logs generated over multiple EC2 instances are pushed to S3 bucket which trigger a Lambda function thereby interacting with Akka Actor System to fetch the 
+          newly generated log file and transmit it to the Spark Program through Kafka messaging system.
+        </p>
+        <div class="portfolio-modal__link">
+          <a href="https://github.com/samihann/akka-kafka-spark_data-pipeline" target="_blank">Github Repository</a>
+        </div>
+        <div  class="portfolio-modal__stack">
+          <p class="portfolio-modal__stack-title">Using stack:</p>
+          <ul class="tags">
+            <li>AWS Compute(EC2)</li>
+            <li>Akka Actor</li>
+            <li>Kafka</li>
+            <li>Spark</li>
+            <li>Lambda</li>
+            <li>Scala</li>
+            <li>Python</li>
+            <li>AWS S3</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade portfolio-modal" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body col-md-11 col-lg-9 ml-auto mr-auto">
+        <p class="portfolio-modal__title">CloudDash</p>
+        <img class="portfolio-modal__img" src="assets/img/img_project_two1.png" alt="modal_img">
+        <p class="portfolio-modal__description">
+          The intention of the project is to create a streaming data pipeline. 
+          The logs generated over multiple EC2 instances are pushed to S3 bucket which trigger a Lambda function thereby interacting with Akka Actor System to fetch the 
+          newly generated log file and transmit it to the Spark Program through Kafka messaging system.
+        </p>
+        <div class="portfolio-modal__link">
+          <a href="https://github.com/samihann/clouddash" target="_blank">Github Repository</a>
+          
+        </div>
+        <div class="portfolio-modal__link">
+          <a href="https://pedantic-hawking-48252c.netlify.app/samihann/homepage" target="_blank">Demo Link</a>
+        </div>
+        <div  class="portfolio-modal__stack">
+          <p class="portfolio-modal__stack-title">Using stack:</p>
+          <ul class="tags">
+            <li>React</li>
+            <li>Node.js</li>
+            <li>JavaScript</li>
+            <li>Express</li>
+            <li>MySQL</li>
+            <li>Ansible</li>
+            <li>HTML/CSS</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Portfolio Modal -->
+
+  <script src="assets/js/jquery-2.2.4.min.js"></script>
+  <script src="assets/js/popper.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/menu.js"></script>
+  <script src="assets/js/jquery.waypoints.js"></script>
+  <script src="assets/js/progress-list.js"></script>
+  <script src="assets/js/section.js"></script>
+  <script src="assets/js/portfolio-filter.js"></script>
+  <script src="assets/js/slider-carousel.js"></script>
+  <script src="assets/js/mobile-menu.js"></script>
+  <script src="assets/js/contacts.js"></script>
+  <script src="assets/js/mbclicker.min.js"></script>
+  <script src="assets/js/site-btn.js"></script>
+  <script src="assets/js/style-switcher.js"></script>
+</body>
+</html>
